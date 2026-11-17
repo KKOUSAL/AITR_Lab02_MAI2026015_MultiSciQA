@@ -1,0 +1,22 @@
+{
+  "split": "test",
+  "lang": "hi",
+  "n_items": 500,
+  "n_segments": 5287,
+  "n_unique_segments": 5285,
+  "output_truncated_fwd": 0,
+  "output_truncated_back": 11,
+  "input_over_limit_fwd": 0,
+  "input_limit_fwd": 256,
+  "max_input_tokens_fwd": 223,
+  "input_over_limit_back": 13,
+  "input_limit_back": 256,
+  "max_input_tokens_back": 459,
+  "seconds_fwd": 488.4,
+  "seconds_back": 481.9,
+  "device": "cuda",
+  "models": [
+    "ai4bharat/indictrans2-en-indic-dist-200M",
+    "ai4bharat/indictrans2-indic-en-dist-200M"
+  ]
+}

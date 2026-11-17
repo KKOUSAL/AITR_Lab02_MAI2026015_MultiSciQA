@@ -1,0 +1,45 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "condition": "TT",
+  "lang": "or",
+  "split": "test",
+  "template": "P0",
+  "n": 500,
+  "device": "cuda",
+  "seconds": 57.5,
+  "label_tokens": {
+    "yes": {
+      "ids": [
+        9834
+      ],
+      "pieces": [
+        "Ġyes"
+      ]
+    },
+    "no": {
+      "ids": [
+        902
+      ],
+      "pieces": [
+        "Ġno"
+      ]
+    },
+    "maybe": {
+      "ids": [
+        7196
+      ],
+      "pieces": [
+        "Ġmaybe"
+      ]
+    }
+  },
+  "pred_distribution": {
+    "yes": 379,
+    "no": 102,
+    "maybe": 19
+  },
+  "accuracy": 60.4,
+  "macro_f1": 41.28,
+  "torch": "2.14.1+cu130",
+  "protocol_version": 4
+}

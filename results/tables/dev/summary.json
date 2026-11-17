@@ -1,0 +1,38 @@
+{
+  "split": "dev",
+  "template": "P0",
+  "n_items": 500,
+  "protocol": "protocol_v2.yaml",
+  "protocol_sha256": "669ea359fccb1d83f18827419376fe118970d283330faf991784c4992875a148",
+  "inputs": {
+    "Qwen__Qwen2.5-1.5B-Instruct|EN|en": "results/preds/Qwen__Qwen2.5-1.5B-Instruct/dev_EN_en_P0.csv"
+  },
+  "bootstrap_resamples": 10000,
+  "A": [
+    {
+      "model": "Qwen__Qwen2.5-1.5B-Instruct",
+      "condition": "EN",
+      "lang": "en",
+      "n": 500,
+      "accuracy": 63.0,
+      "macro_f1": 45.1,
+      "f1_yes": 74.18,
+      "f1_no": 47.43,
+      "f1_maybe": 13.7
+    },
+    {
+      "model": "Majority",
+      "condition": "-",
+      "lang": "-",
+      "n": 500,
+      "accuracy": 55.2,
+      "macro_f1": 23.71,
+      "f1_yes": 71.13,
+      "f1_no": 0.0,
+      "f1_maybe": 0.0
+    }
+  ],
+  "B": [],
+  "C": [],
+  "D": []
+}

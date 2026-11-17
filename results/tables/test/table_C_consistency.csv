@@ -1,0 +1,5 @@
+model,condition,lang,agreement_with_en,kappa_vs_en,flip_en_correct_to_wrong
+Qwen__Qwen2.5-1.5B-Instruct,NATIVE,hi,54.6,0.157,42.77
+Qwen__Qwen2.5-1.5B-Instruct,NATIVE,or,66.2,0.0638,33.96
+Qwen__Qwen2.5-1.5B-Instruct,TT,hi,88.8,0.6802,8.18
+Qwen__Qwen2.5-1.5B-Instruct,TT,or,84.8,0.5789,12.26

@@ -1,0 +1,49 @@
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Downloading 'model.safetensors' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/0039e4304e9889acc5c8350a193311d07aa5399b6d9fb0445e8fde19e3533bb5.incomplete' (resume from 870318080/1098427592)
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/0039e4304e9889acc5c8350a193311d07aa5399b6d9fb0445e8fde19e3533bb5
+Fetching 15 files:  73%|███████▎  | 11/15 [00:23<00:08,  2.13s/it]Fetching 15 files: 100%|██████████| 15/15 [00:23<00:00,  1.56s/it]
+Fetching 14 files:   0%|          | 0/14 [00:00<?, ?it/s]Downloading 'model.SRC' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/ac9257c8e76b8b607705b959cc3d075656ea33032f7a974e467b8941df6e98d4.incomplete'
+Downloading 'README.md' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/7ea224e5f729e98363f3f415945984920120aea2.incomplete'
+Downloading 'dict.TGT.json' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/c02436a9fc89002a6aa0a9756d8fb7d74dc1c66c.incomplete'
+Downloading 'dict.SRC.json' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/417a049588f7d60df9b64b6735f79aa92fbe2e50.incomplete'
+Downloading 'LICENSE' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/03070285be3aab2c5603737115bb71df3f7bbdf5.incomplete'
+Downloading 'generation_config.json' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/542cc0f13b067a9bd56e0334c422a1e51de28e19.incomplete'
+Downloading '.gitattributes' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/5c63ab62ac3d1ee2aceb2d00a4f979597c1bdffa.incomplete'
+Downloading 'configuration_indictrans.py' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/110d923f8fffda96398f05c30e00f94e341670ec.incomplete'
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/7ea224e5f729e98363f3f415945984920120aea2
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/03070285be3aab2c5603737115bb71df3f7bbdf5
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/5c63ab62ac3d1ee2aceb2d00a4f979597c1bdffa
+Fetching 14 files:   7%|▋         | 1/14 [00:01<00:13,  1.02s/it]Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/542cc0f13b067a9bd56e0334c422a1e51de28e19
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/110d923f8fffda96398f05c30e00f94e341670ec
+Downloading 'model.TGT' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/4841e2bc6e5116de279437e88fe9bcaa7656f813.incomplete'
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/c02436a9fc89002a6aa0a9756d8fb7d74dc1c66c
+Downloading 'model.safetensors' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/a9bff20ae94712db41c8dc99d2e381eb456ddccbcd48cb2c7cf077ccc5bc58d8.incomplete'
+Downloading 'modeling_indictrans.py' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/efbe438f6f1e8f57bd0652e9458f2755adb87900.incomplete'
+Downloading 'tokenizer_config.json' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/4d12aafc2cf58013deeffe761d6930af826949cb.incomplete'
+Downloading 'tokenization_indictrans.py' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/53c9be07a1dda3273ed8c2af4f30b635edff4b31.incomplete'
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/417a049588f7d60df9b64b6735f79aa92fbe2e50
+Fetching 14 files:  43%|████▎     | 6/14 [00:01<00:02,  3.93it/s]Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/4d12aafc2cf58013deeffe761d6930af826949cb
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/53c9be07a1dda3273ed8c2af4f30b635edff4b31
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/efbe438f6f1e8f57bd0652e9458f2755adb87900
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/4841e2bc6e5116de279437e88fe9bcaa7656f813
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/ac9257c8e76b8b607705b959cc3d075656ea33032f7a974e467b8941df6e98d4
+Fetching 14 files:  64%|██████▍   | 9/14 [00:03<00:01,  2.84it/s]Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/a9bff20ae94712db41c8dc99d2e381eb456ddccbcd48cb2c7cf077ccc5bc58d8
+Fetching 14 files:  79%|███████▊  | 11/14 [01:35<00:41, 13.69s/it]Fetching 14 files: 100%|██████████| 14/14 [01:35<00:00,  6.85s/it]
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Downloading 'tokenizer.json' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/5cc5f00a5b203e90a27a3bd60d1ec393b07971e8.incomplete'
+Downloading '.gitattributes' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/a6344aac8c09253b3b630fb776ae94478aa0275b.incomplete'
+Downloading 'generation_config.json' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/75ae08310d6d23df373ee2644b497192b3cce6d8.incomplete'
+Downloading 'special_tokens_map.json' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/02ee80b6196926a5ad790a004d9efd6ab1ba6542.incomplete'
+Downloading 'model.safetensors' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/1ff795ff6a07e6a68085d206fb84417da2f083f68391c2843cd2b8ac6df8538f.incomplete'
+Downloading 'USE_POLICY.md' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/ac3c5f21b9779e3da0677d6d3c587778fe3a331e.incomplete'
+Downloading 'LICENSE.txt' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/085b47c1575cb889b7024030e60b78f54f0b8c9e.incomplete'
+Downloading 'README.md' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/b3c62ef6190712fb3e31af1628f0b85706fc4ba8.incomplete'
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/a6344aac8c09253b3b630fb776ae94478aa0275b
+Fetching 10 files:  10%|█         | 1/10 [00:01<00:10,  1.17s/it]Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/75ae08310d6d23df373ee2644b497192b3cce6d8
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/02ee80b6196926a5ad790a004d9efd6ab1ba6542
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/085b47c1575cb889b7024030e60b78f54f0b8c9e
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/ac3c5f21b9779e3da0677d6d3c587778fe3a331e
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/b3c62ef6190712fb3e31af1628f0b85706fc4ba8
+Downloading 'tokenizer_config.json' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/4ff488a165e900e5129cda7c20ab32d568d2a475.incomplete'
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/4ff488a165e900e5129cda7c20ab32d568d2a475
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/5cc5f00a5b203e90a27a3bd60d1ec393b07971e8
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/1ff795ff6a07e6a68085d206fb84417da2f083f68391c2843cd2b8ac6df8538f
+Fetching 10 files:  70%|███████   | 7/10 [03:31<01:34, 31.52s/it]Fetching 10 files: 100%|██████████| 10/10 [03:31<00:00, 21.15s/it]

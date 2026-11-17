@@ -1,0 +1,90 @@
+# FROZEN EXPERIMENT PROTOCOL v4. Do not edit after freezing.
+# Derived from protocol_v3.yaml (2026-11-16). Changes (decision D15), made to finish faster at the student's request:
+#   1. target languages reduced to hi (mid) + or (very low): the minimum tier contrast, pre-registered fallback in P04
+#   2. prompt sensitivity templates P1/P2 removed (P0 only)
+#   3. hardware: translation AND scoring on Colab T4 (fp16); local M1 measured 4.7-10 s/sentence for MT
+# Any further change goes into protocol_v5.yaml.
+protocol_version: 4
+frozen_on: 2026-11-16
+supersedes: protocol_v3.yaml
+results_seen_before_freeze: dev only   # Qwen2.5-1.5B EN dev G2 run (63.00/45.10); NO test-split outputs exist
+
+data:
+  source: github.com/pubmedqa/pubmedqa
+  commit: 1cbae8e92f72f20c8d3747cbb3bf5bc53554d997
+  items: data/raw/pubmedqa_repo/data/ori_pqal.json
+  test_ids: data/splits/test_pmids.txt        # official 500 items; evaluated ONCE per condition
+  dev_ids: data/splits/dev_pmids.txt          # 500 items; debugging and G2 check only
+  input_fields: [QUESTION, CONTEXTS]          # nothing else may reach a prompt
+  forbidden_fields: [LONG_ANSWER, reasoning_required_pred, reasoning_free_pred, final_decision, LABELS, MESHES, YEAR]
+  context_join: "\n\n"
+  labels: [yes, no, maybe]
+
+languages:
+  reference: {code: en, mt: eng_Latn}
+  targets:
+    - {code: hi, mt: hin_Deva, tier: mid}        # tiers from Singh et al. 2025
+    - {code: or, mt: ory_Orya, tier: very_low}
+
+translation:
+  en_to_x: ai4bharat/indictrans2-en-indic-dist-200M
+  x_to_en: ai4bharat/indictrans2-indic-en-dist-200M
+  unit: sentence                # contexts split on (?<=[.!?])\s+(?=[A-Z(]); the question is one segment
+  num_beams: 5
+  max_new_tokens: 512
+  batch_size: 32
+  dtype: float16
+  record_truncations: true      # count segments whose output hit max_new_tokens
+  cache_dir: data/translations  # translated once; all models read the same cache
+
+conditions:
+  EN:     {evidence: original English}
+  NATIVE: {evidence: EN->X translation, question: EN->X translation}
+  TT:     {evidence: EN->X->EN round trip, question: EN->X->EN round trip}
+  # Instruction text and answer words stay in English in every condition, so only the
+  # language of the evidence and question varies (avoids a label-translation confound).
+
+models:
+  dtype: float16
+  list:
+    - {id: Qwen/Qwen2.5-1.5B-Instruct, role: primary, chat_template: true}     # v1: Qwen2.5-3B-Instruct
+    # removed in v3: meta-llama/Llama-3.2-1B-Instruct (primary), sarvamai/sarvam-1 (exploratory)
+  # instruct models: the user message holds the prompt; the label is scored in the assistant turn
+
+prompt:
+  template_id: P0
+  text: |
+    Read the abstract of a biomedical research paper and answer the research question with exactly one word: yes, no, or maybe.
+
+    Abstract:
+    {context}
+
+    Question: {question}
+  answer_prefix: "Answer:"
+  # sensitivity_templates P1/P2 removed in v4
+
+scoring:
+  method: label_loglik          # sum of token log-probs of " yes" / " no" / " maybe" after the answer prefix
+  prediction: argmax
+  sampling: none
+  seed: 2026
+
+metrics:
+  primary: macro_f1             # higher is better
+  secondary: [accuracy, per_class_f1, confusion_matrix]
+  consistency: [agreement_with_EN_prediction, cohen_kappa_vs_EN, flip_EN_correct_to_X_wrong]
+  rq3: [token_fertility_vs_EN, number_preservation_rate, roundtrip_chrF]
+
+statistics:
+  primary_contrast: TT_minus_NATIVE_macro_f1   # per language x model
+  bootstrap: {resamples: 10000, ci: 0.95, seed: 2026, paired: true}
+  mcnemar: exact
+  multiple_comparisons: holm    # over 2 languages x 1 model = 2 tests (v4)
+  effect_rule: "an effect is claimed only if the bootstrap CI excludes 0 AND Holm-adjusted McNemar p < 0.05"
+
+gates:
+  g2_english_macro_f1_must_exceed: 23.71        # Majority; PASSED on dev (45.10)
+
+budget:
+  hardware: Google Colab Tesla T4 16 GB (translation + test scoring); G2 dev check was run on local M1 (MPS)
+  max_compute_hours: 3

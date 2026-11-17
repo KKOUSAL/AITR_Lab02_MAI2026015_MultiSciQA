@@ -1,0 +1,159 @@
+{
+  "split": "test",
+  "template": "P0",
+  "n_items": 500,
+  "protocol": "protocol_v4.yaml",
+  "protocol_sha256": "c9871f6a3cfc887a34fdd7282a8140a8ee23c2393cf66462ef6ab1d53c438702",
+  "inputs": {
+    "Qwen__Qwen2.5-1.5B-Instruct|EN|en": "results/preds/Qwen__Qwen2.5-1.5B-Instruct/test_EN_en_P0.csv",
+    "Qwen__Qwen2.5-1.5B-Instruct|NATIVE|hi": "results/preds/Qwen__Qwen2.5-1.5B-Instruct/test_NATIVE_hi_P0.csv",
+    "Qwen__Qwen2.5-1.5B-Instruct|NATIVE|or": "results/preds/Qwen__Qwen2.5-1.5B-Instruct/test_NATIVE_or_P0.csv",
+    "Qwen__Qwen2.5-1.5B-Instruct|TT|hi": "results/preds/Qwen__Qwen2.5-1.5B-Instruct/test_TT_hi_P0.csv",
+    "Qwen__Qwen2.5-1.5B-Instruct|TT|or": "results/preds/Qwen__Qwen2.5-1.5B-Instruct/test_TT_or_P0.csv"
+  },
+  "bootstrap_resamples": 10000,
+  "A": [
+    {
+      "model": "Qwen__Qwen2.5-1.5B-Instruct",
+      "condition": "EN",
+      "lang": "en",
+      "n": 500,
+      "accuracy": 63.6,
+      "macro_f1": 44.59,
+      "f1_yes": 75.37,
+      "f1_no": 47.43,
+      "f1_maybe": 10.96
+    },
+    {
+      "model": "Qwen__Qwen2.5-1.5B-Instruct",
+      "condition": "NATIVE",
+      "lang": "hi",
+      "n": 500,
+      "accuracy": 41.6,
+      "macro_f1": 30.04,
+      "f1_yes": 63.54,
+      "f1_no": 7.78,
+      "f1_maybe": 18.8
+    },
+    {
+      "model": "Qwen__Qwen2.5-1.5B-Instruct",
+      "condition": "NATIVE",
+      "lang": "or",
+      "n": 500,
+      "accuracy": 47.6,
+      "macro_f1": 28.86,
+      "f1_yes": 65.15,
+      "f1_no": 17.36,
+      "f1_maybe": 4.08
+    },
+    {
+      "model": "Qwen__Qwen2.5-1.5B-Instruct",
+      "condition": "TT",
+      "lang": "hi",
+      "n": 500,
+      "accuracy": 62.2,
+      "macro_f1": 42.92,
+      "f1_yes": 74.7,
+      "f1_no": 46.15,
+      "f1_maybe": 7.89
+    },
+    {
+      "model": "Qwen__Qwen2.5-1.5B-Instruct",
+      "condition": "TT",
+      "lang": "or",
+      "n": 500,
+      "accuracy": 60.4,
+      "macro_f1": 41.28,
+      "f1_yes": 72.67,
+      "f1_no": 45.76,
+      "f1_maybe": 5.41
+    },
+    {
+      "model": "Majority",
+      "condition": "-",
+      "lang": "-",
+      "n": 500,
+      "accuracy": 55.2,
+      "macro_f1": 23.71,
+      "f1_yes": 71.13,
+      "f1_no": 0.0,
+      "f1_maybe": 0.0
+    }
+  ],
+  "B": [
+    {
+      "model": "Qwen__Qwen2.5-1.5B-Instruct",
+      "lang": "hi",
+      "delta_macro_f1": 12.88,
+      "ci_low": 7.79,
+      "ci_high": 17.87,
+      "native_only_correct": 33,
+      "tt_only_correct": 136,
+      "mcnemar_p": 4.713603440235691e-16,
+      "holm_p": 9.427206880471383e-16,
+      "effect_claimed": true
+    },
+    {
+      "model": "Qwen__Qwen2.5-1.5B-Instruct",
+      "lang": "or",
+      "delta_macro_f1": 12.42,
+      "ci_low": 7.09,
+      "ci_high": 17.58,
+      "native_only_correct": 42,
+      "tt_only_correct": 106,
+      "mcnemar_p": 1.4461330447993918e-07,
+      "holm_p": 1.4461330447993918e-07,
+      "effect_claimed": true
+    }
+  ],
+  "C": [
+    {
+      "model": "Qwen__Qwen2.5-1.5B-Instruct",
+      "condition": "NATIVE",
+      "lang": "hi",
+      "agreement_with_en": 54.6,
+      "kappa_vs_en": 0.157,
+      "flip_en_correct_to_wrong": 42.77
+    },
+    {
+      "model": "Qwen__Qwen2.5-1.5B-Instruct",
+      "condition": "NATIVE",
+      "lang": "or",
+      "agreement_with_en": 66.2,
+      "kappa_vs_en": 0.0638,
+      "flip_en_correct_to_wrong": 33.96
+    },
+    {
+      "model": "Qwen__Qwen2.5-1.5B-Instruct",
+      "condition": "TT",
+      "lang": "hi",
+      "agreement_with_en": 88.8,
+      "kappa_vs_en": 0.6802,
+      "flip_en_correct_to_wrong": 8.18
+    },
+    {
+      "model": "Qwen__Qwen2.5-1.5B-Instruct",
+      "condition": "TT",
+      "lang": "or",
+      "agreement_with_en": 84.8,
+      "kappa_vs_en": 0.5789,
+      "flip_en_correct_to_wrong": 12.26
+    }
+  ],
+  "D": [
+    {
+      "lang": "hi",
+      "number_preservation_en_to_x": 93.46,
+      "number_preservation_roundtrip": 90.36,
+      "roundtrip_chrF": 80.63,
+      "fertility_mean__Qwen__Qwen2.5-1.5B-Instruct": 3.598
+    },
+    {
+      "lang": "or",
+      "number_preservation_en_to_x": 81.45,
+      "number_preservation_roundtrip": 78.94,
+      "roundtrip_chrF": 69.22,
+      "fertility_mean__Qwen__Qwen2.5-1.5B-Instruct": 7.821
+    }
+  ]
+}

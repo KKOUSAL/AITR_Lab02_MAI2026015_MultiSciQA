@@ -1,0 +1,18 @@
+{
+  "label": "G2 baseline error analysis (dev, 500 items, EN, Qwen2.5-1.5B) - real",
+  "recall_by_gold": {
+    "yes": "250/276",
+    "no": "60/169",
+    "maybe": "5/55"
+  },
+  "median_margin_correct": 3.078,
+  "median_margin_wrong": 1.906,
+  "acc_short_input (n=168)": 66.1,
+  "acc_medium_input (n=166)": 62.0,
+  "acc_long_input (n=166)": 60.8,
+  "length_tercile_cutoffs_tokens": [
+    346,
+    428
+  ],
+  "gold_no_pred_yes: median (ll_yes - ll_no)": 3.125
+}

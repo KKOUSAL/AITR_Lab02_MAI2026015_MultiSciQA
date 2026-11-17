@@ -1,0 +1,448 @@
+[2026-11-16 22:05:54] ai4bharat/indictrans2-en-indic-dist-200M attempt 1
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Downloading '.gitattributes' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/c7de43052c92bdbc613f7ca70a3cc51875d5b33b.incomplete'
+Downloading 'README.md' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/ea51dc456db5d613501df00f8d5ffdce38c197fa.incomplete'
+Downloading 'model.SRC' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/4841e2bc6e5116de279437e88fe9bcaa7656f813.incomplete'
+Downloading 'LICENSE' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/03070285be3aab2c5603737115bb71df3f7bbdf5.incomplete'
+Downloading 'dict.SRC.json' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/777afff23d0ca2c0f20c8c2ebac93ab5d9733e1e.incomplete'
+Downloading 'generation_config.json' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/542cc0f13b067a9bd56e0334c422a1e51de28e19.incomplete'
+Downloading 'configuration_indictrans.py' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/110d923f8fffda96398f05c30e00f94e341670ec.incomplete'
+Downloading 'dict.TGT.json' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/c36097374f97737a662ce1d1dd011fe386198561.incomplete'
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/ea51dc456db5d613501df00f8d5ffdce38c197fa
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/c7de43052c92bdbc613f7ca70a3cc51875d5b33b
+Fetching 15 files:   7%|▋         | 1/15 [00:01<00:17,  1.22s/it]Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/03070285be3aab2c5603737115bb71df3f7bbdf5
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/542cc0f13b067a9bd56e0334c422a1e51de28e19
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/110d923f8fffda96398f05c30e00f94e341670ec
+Fetching 15 files:  33%|███▎      | 5/15 [00:01<00:02,  3.65it/s]Downloading 'special_tokens_map.json' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/fdafe480f024ff444c7492147536765ce5d55a2d.incomplete'
+Downloading 'tokenization_indictrans.py' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/53c9be07a1dda3273ed8c2af4f30b635edff4b31.incomplete'
+Downloading 'modeling_indictrans.py' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/dec79d3e6161c3e90dabcd14887198a62ce5783d.incomplete'
+Downloading 'model.TGT' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/ac9257c8e76b8b607705b959cc3d075656ea33032f7a974e467b8941df6e98d4.incomplete'
+Downloading 'model.safetensors' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/0039e4304e9889acc5c8350a193311d07aa5399b6d9fb0445e8fde19e3533bb5.incomplete'
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/53c9be07a1dda3273ed8c2af4f30b635edff4b31
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/fdafe480f024ff444c7492147536765ce5d55a2d
+Downloading 'tokenizer_config.json' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/c9b54b82b8cfd50c50700d885112176109f81107.incomplete'
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/dec79d3e6161c3e90dabcd14887198a62ce5783d
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/c9b54b82b8cfd50c50700d885112176109f81107
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/777afff23d0ca2c0f20c8c2ebac93ab5d9733e1e
+Fetching 15 files:  40%|████      | 6/15 [00:10<00:20,  2.28s/it]Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/4841e2bc6e5116de279437e88fe9bcaa7656f813
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/ac9257c8e76b8b607705b959cc3d075656ea33032f7a974e467b8941df6e98d4
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/c36097374f97737a662ce1d1dd011fe386198561
+Fetching 15 files:  47%|████▋     | 7/15 [01:16<02:25, 18.24s/it]Error while downloading from https://huggingface.co/ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors: HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Read timed out.
+Trying to resume download...
+Error while downloading from https://huggingface.co/ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors: HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Read timed out.
+Trying to resume download...
+Error while downloading from https://huggingface.co/ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors: HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Read timed out.
+Trying to resume download...
+Error while downloading from https://huggingface.co/ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors: HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Read timed out.
+Trying to resume download...
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x105177110>: Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 93ba9d16-c755-48f2-bfce-0936b56ca4ff)')' thrown while requesting GET https://huggingface.co/ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors
+Retrying in 1s [Retry 1/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x105176c10>: Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: f8e35401-e6d5-49df-8cc8-76cd0c970a93)')' thrown while requesting GET https://huggingface.co/ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors
+Retrying in 2s [Retry 2/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x105224910>: Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 06be4c85-dc7a-46cc-a267-aa98ded12d24)')' thrown while requesting GET https://huggingface.co/ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors
+Retrying in 4s [Retry 3/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1052247d0>: Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 284b53fa-3328-4bc2-a823-fbbad0d8616d)')' thrown while requesting GET https://huggingface.co/ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors
+Retrying in 8s [Retry 4/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x105224e10>: Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: e2ba0bba-8b06-4f08-8914-ca2bb153f5c3)')' thrown while requesting GET https://huggingface.co/ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors
+Retrying in 8s [Retry 5/5].
+'(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1052251d0>: Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 8341ce0f-c947-443a-aa7d-92bb92264206)')' thrown while requesting GET https://huggingface.co/ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors
+Fetching 15 files:  67%|██████▋   | 10/15 [43:28<21:44, 260.85s/it]
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 754, in _error_catcher
+    yield
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 879, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 862, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ~~~~~~~~~~~~~^^^^^
+  File "/opt/anaconda3/lib/python3.13/http/client.py", line 479, in read
+    s = self.fp.read(amt)
+  File "/opt/anaconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/requests/models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 1066, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 955, in read
+    data = self._raw_read(amt)
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 878, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 759, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/file_download.py", line 493, in http_get
+    for chunk in r.iter_content(chunk_size=constants.DOWNLOAD_CHUNK_SIZE):
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/requests/models.py", line 826, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 754, in _error_catcher
+    yield
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 879, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 862, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ~~~~~~~~~~~~~^^^^^
+  File "/opt/anaconda3/lib/python3.13/http/client.py", line 479, in read
+    s = self.fp.read(amt)
+  File "/opt/anaconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/requests/models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 1066, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 955, in read
+    data = self._raw_read(amt)
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 878, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 759, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/file_download.py", line 493, in http_get
+    for chunk in r.iter_content(chunk_size=constants.DOWNLOAD_CHUNK_SIZE):
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/requests/models.py", line 826, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 754, in _error_catcher
+    yield
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 879, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 862, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ~~~~~~~~~~~~~^^^^^
+  File "/opt/anaconda3/lib/python3.13/http/client.py", line 479, in read
+    s = self.fp.read(amt)
+  File "/opt/anaconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/requests/models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 1066, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 955, in read
+    data = self._raw_read(amt)
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 878, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 759, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/file_download.py", line 493, in http_get
+    for chunk in r.iter_content(chunk_size=constants.DOWNLOAD_CHUNK_SIZE):
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/requests/models.py", line 826, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 754, in _error_catcher
+    yield
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 879, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 862, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ~~~~~~~~~~~~~^^^^^
+  File "/opt/anaconda3/lib/python3.13/http/client.py", line 479, in read
+    s = self.fp.read(amt)
+  File "/opt/anaconda3/lib/python3.13/socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/opt/anaconda3/lib/python3.13/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/requests/models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 1066, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 955, in read
+    data = self._raw_read(amt)
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 878, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/response.py", line 759, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/file_download.py", line 493, in http_get
+    for chunk in r.iter_content(chunk_size=constants.DOWNLOAD_CHUNK_SIZE):
+                 ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/requests/models.py", line 826, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='us.aws.cdn.hf.co', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x1052251d0>: Failed to resolve 'huggingface.co' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/opt/anaconda3/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1052251d0>: Failed to resolve 'huggingface.co' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/bin/hf", line 8, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/cli/hf.py", line 59, in main
+    service.run()
+    ~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/cli/download.py", line 136, in run
+    print(self._download())  # Print path to downloaded files
+          ~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/cli/download.py", line 169, in _download
+    return snapshot_download(
+        repo_id=self.repo_id,
+    ...<9 lines>...
+        max_workers=self.max_workers,
+    )
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/_snapshot_download.py", line 332, in snapshot_download
+    thread_map(
+    ~~~~~~~~~~^
+        _inner_hf_hub_download,
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        tqdm_class=tqdm_class or hf_tqdm,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/tqdm/contrib/concurrent.py", line 69, in thread_map
+    return _executor_map(ThreadPoolExecutor, fn, *iterables, **tqdm_kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/tqdm/contrib/concurrent.py", line 51, in _executor_map
+    return list(tqdm_class(ex.map(fn, *iterables, chunksize=chunksize), **kwargs))
+  File "/opt/anaconda3/lib/python3.13/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+               ^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.13/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/anaconda3/lib/python3.13/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/_snapshot_download.py", line 306, in _inner_hf_hub_download
+    return hf_hub_download(
+        repo_id,
+    ...<15 lines>...
+        headers=headers,
+    )
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/file_download.py", line 1007, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+        # Destination
+    ...<14 lines>...
+        force_download=force_download,
+    )
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/file_download.py", line 1168, in _hf_hub_download_to_cache_dir
+    _download_to_tmp_and_move(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        incomplete_path=Path(blob_path + ".incomplete"),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+        xet_file_data=xet_file_data,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/file_download.py", line 1735, in _download_to_tmp_and_move
+    http_get(
+    ~~~~~~~~^
+        url_to_download,
+        ^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        expected_size=expected_size,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/file_download.py", line 510, in http_get
+    return http_get(
+        url=url,
+    ...<6 lines>...
+        _tqdm_bar=_tqdm_bar,
+    )
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/file_download.py", line 510, in http_get
+    return http_get(
+        url=url,
+    ...<6 lines>...
+        _tqdm_bar=_tqdm_bar,
+    )
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/file_download.py", line 510, in http_get
+    return http_get(
+        url=url,
+    ...<6 lines>...
+        _tqdm_bar=_tqdm_bar,
+    )
+  [Previous line repeated 1 more time]
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/file_download.py", line 423, in http_get
+    r = _request_wrapper(
+        method="GET", url=url, stream=True, proxies=proxies, headers=headers, timeout=constants.HF_HUB_DOWNLOAD_TIMEOUT
+    )
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/file_download.py", line 306, in _request_wrapper
+    response = http_backoff(method=method, url=url, **params)
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/utils/_http.py", line 325, in http_backoff
+    raise err
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/utils/_http.py", line 306, in http_backoff
+    response = session.request(method=method, url=url, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/anaconda3/lib/python3.13/site-packages/huggingface_hub/utils/_http.py", line 95, in send
+    return super().send(request, *args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /ai4bharat/indictrans2-en-indic-dist-200M/resolve/2cfd0a20057756d756bf3e53528f492afc52f91a/model.safetensors (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1052251d0>: Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 8341ce0f-c947-443a-aa7d-92bb92264206)')
+[2026-11-16 22:49:43] ai4bharat/indictrans2-en-indic-dist-200M attempt 2
+[2026-11-16 22:49:44] ai4bharat/indictrans2-en-indic-dist-200M OK
+[2026-11-16 22:49:44] ai4bharat/indictrans2-indic-en-dist-200M attempt 1
+[2026-11-16 22:49:44] ai4bharat/indictrans2-indic-en-dist-200M OK

@@ -1,0 +1,14 @@
+# Direct dependencies (constraints). Exact resolved versions: requirements.txt
+torch>=2.4,<2.10
+transformers>=4.46,<5        # IndicTrans2 card: translation pipeline unsupported on v5
+accelerate
+sentencepiece
+IndicTransToolkit
+sacrebleu
+numpy
+pandas
+scipy
+pyyaml
+matplotlib
+pytest
+huggingface_hub

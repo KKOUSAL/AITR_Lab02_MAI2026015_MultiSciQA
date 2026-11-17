@@ -1,0 +1,3 @@
+model,condition,lang,n,accuracy,macro_f1,f1_yes,f1_no,f1_maybe
+Qwen__Qwen2.5-1.5B-Instruct,EN,en,500,63.0,45.1,74.18,47.43,13.7
+Majority,-,-,500,55.2,23.71,71.13,0.0,0.0

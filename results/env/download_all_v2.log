@@ -1,0 +1,10 @@
+[2026-11-16 22:52:27] ai4bharat/indictrans2-en-indic-dist-200M attempt 1
+complete:3: no matches found: /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-en-indic-dist-200M/blobs/*.incomplete
+[2026-11-16 22:52:51] ai4bharat/indictrans2-en-indic-dist-200M VERIFIED COMPLETE (1.0G)
+[2026-11-16 22:52:51] ai4bharat/indictrans2-indic-en-dist-200M attempt 1
+complete:3: no matches found: /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--ai4bharat--indictrans2-indic-en-dist-200M/blobs/*.incomplete
+[2026-11-16 22:54:28] ai4bharat/indictrans2-indic-en-dist-200M VERIFIED COMPLETE (894M)
+[2026-11-16 22:54:28] meta-llama/Llama-3.2-1B-Instruct attempt 1
+complete:3: no matches found: /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--meta-llama--Llama-3.2-1B-Instruct/blobs/*.incomplete
+[2026-11-16 22:58:01] meta-llama/Llama-3.2-1B-Instruct VERIFIED COMPLETE (2.3G)
+exit=0

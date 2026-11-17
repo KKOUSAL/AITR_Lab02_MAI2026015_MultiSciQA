@@ -1,0 +1,7 @@
+model,condition,lang,n,accuracy,macro_f1,f1_yes,f1_no,f1_maybe
+Qwen__Qwen2.5-1.5B-Instruct,EN,en,500,63.6,44.59,75.37,47.43,10.96
+Qwen__Qwen2.5-1.5B-Instruct,NATIVE,hi,500,41.6,30.04,63.54,7.78,18.8
+Qwen__Qwen2.5-1.5B-Instruct,NATIVE,or,500,47.6,28.86,65.15,17.36,4.08
+Qwen__Qwen2.5-1.5B-Instruct,TT,hi,500,62.2,42.92,74.7,46.15,7.89
+Qwen__Qwen2.5-1.5B-Instruct,TT,or,500,60.4,41.28,72.67,45.76,5.41
+Majority,-,-,500,55.2,23.71,71.13,0.0,0.0

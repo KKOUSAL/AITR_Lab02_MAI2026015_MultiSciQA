@@ -1,0 +1,14 @@
+{
+  "label": "PILOT (dev, 5 items, Hindi only) - not a test result",
+  "n_sentences_fwd": 47,
+  "n_sentences_roundtrip": 32,
+  "numbers_preserved_en_to_hi": "34/34",
+  "pct_en_to_hi": 100.0,
+  "numbers_preserved_roundtrip": "20/20",
+  "pct_roundtrip": 100.0,
+  "qwen_tokens_en": 1352,
+  "qwen_tokens_hi": 6079,
+  "fertility_hi_vs_en": 4.5,
+  "truncated": 0,
+  "number_losses_examples": []
+}

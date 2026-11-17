@@ -1,0 +1,10 @@
+indictranstoolkit==1.1.1
+numpy==2.4.6
+sacrebleu==2.6.0
+scipy==1.16.3
+sentencepiece==0.2.2
+tokenizers==0.21.4
+torch==2.14.1+cu130
+transformers==4.51.3
+name, driver_version
+Tesla T4, 580.82.07

@@ -1,0 +1,106 @@
+# FROZEN EXPERIMENT PROTOCOL v3. Do not edit after freezing.
+# Derived from protocol_v2.yaml (2026-11-16). The ONLY change is models.list (decision D14):
+#   Llama-3.2-1B-Instruct and the optional sarvam-1 are removed; Qwen2.5-1.5B-Instruct is the single model.
+#   reason: compute time on the local M1 (heavy swapping); student decision 2026-11-16.
+#   multiple-comparison family shrinks from 8 to 4 tests (4 languages x 1 model).
+# Any further change goes into protocol_v4.yaml (docs/P07_protocol.md, "Changing the protocol").
+protocol_version: 3
+frozen_on: 2026-11-16
+supersedes: protocol_v2.yaml
+results_seen_before_freeze: dev only   # Qwen2.5-1.5B EN dev G2 run (63.00/45.10); NO test-split outputs exist
+
+data:
+  source: github.com/pubmedqa/pubmedqa
+  commit: 1cbae8e92f72f20c8d3747cbb3bf5bc53554d997
+  items: data/raw/pubmedqa_repo/data/ori_pqal.json
+  test_ids: data/splits/test_pmids.txt        # official 500 items; evaluated ONCE per condition
+  dev_ids: data/splits/dev_pmids.txt          # 500 items; debugging and G2 check only
+  input_fields: [QUESTION, CONTEXTS]          # nothing else may reach a prompt
+  forbidden_fields: [LONG_ANSWER, reasoning_required_pred, reasoning_free_pred, final_decision, LABELS, MESHES, YEAR]
+  context_join: "\n\n"
+  labels: [yes, no, maybe]
+
+languages:
+  reference: {code: en, mt: eng_Latn}
+  targets:
+    - {code: hi, mt: hin_Deva, tier: mid}        # tiers from Singh et al. 2025
+    - {code: bn, mt: ben_Beng, tier: mid}
+    - {code: or, mt: ory_Orya, tier: very_low}
+    - {code: pa, mt: pan_Guru, tier: very_low}
+
+translation:
+  en_to_x: ai4bharat/indictrans2-en-indic-dist-200M
+  x_to_en: ai4bharat/indictrans2-indic-en-dist-200M
+  unit: sentence                # contexts split on (?<=[.!?])\s+(?=[A-Z(]); the question is one segment
+  num_beams: 5
+  max_new_tokens: 512
+  batch_size: 32
+  dtype: float16
+  record_truncations: true      # count segments whose output hit max_new_tokens
+  cache_dir: data/translations  # translated once; all models read the same cache
+
+conditions:
+  EN:     {evidence: original English}
+  NATIVE: {evidence: EN->X translation, question: EN->X translation}
+  TT:     {evidence: EN->X->EN round trip, question: EN->X->EN round trip}
+  # Instruction text and answer words stay in English in every condition, so only the
+  # language of the evidence and question varies (avoids a label-translation confound).
+
+models:
+  dtype: float16
+  list:
+    - {id: Qwen/Qwen2.5-1.5B-Instruct, role: primary, chat_template: true}     # v1: Qwen2.5-3B-Instruct
+    # removed in v3: meta-llama/Llama-3.2-1B-Instruct (primary), sarvamai/sarvam-1 (exploratory)
+  # instruct models: the user message holds the prompt; the label is scored in the assistant turn
+
+prompt:
+  template_id: P0
+  text: |
+    Read the abstract of a biomedical research paper and answer the research question with exactly one word: yes, no, or maybe.
+
+    Abstract:
+    {context}
+
+    Question: {question}
+  answer_prefix: "Answer:"
+  sensitivity_templates:        # secondary analysis only; the primary result uses P0
+    P1: |
+      Based only on the evidence below, decide whether the answer to the question is yes, no, or maybe.
+
+      Evidence:
+      {context}
+
+      Question: {question}
+    P2: |
+      Question: {question}
+
+      Context:
+      {context}
+
+      Respond with yes, no, or maybe.
+
+scoring:
+  method: label_loglik          # sum of token log-probs of " yes" / " no" / " maybe" after the answer prefix
+  prediction: argmax
+  sampling: none
+  seed: 2026
+
+metrics:
+  primary: macro_f1             # higher is better
+  secondary: [accuracy, per_class_f1, confusion_matrix]
+  consistency: [agreement_with_EN_prediction, cohen_kappa_vs_EN, flip_EN_correct_to_X_wrong]
+  rq3: [token_fertility_vs_EN, number_preservation_rate, roundtrip_chrF]
+
+statistics:
+  primary_contrast: TT_minus_NATIVE_macro_f1   # per language x model
+  bootstrap: {resamples: 10000, ci: 0.95, seed: 2026, paired: true}
+  mcnemar: exact
+  multiple_comparisons: holm    # over 4 languages x 1 model = 4 tests (v3)
+  effect_rule: "an effect is claimed only if the bootstrap CI excludes 0 AND Holm-adjusted McNemar p < 0.05"
+
+gates:
+  g2_english_macro_f1_must_exceed: 23.71        # Majority; else return to the 3B models on Colab (logged as v3)
+
+budget:
+  hardware: Apple M1, 8 GB unified memory, PyTorch MPS backend (local)
+  max_compute_hours: 24

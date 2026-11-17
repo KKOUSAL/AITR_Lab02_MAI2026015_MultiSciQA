@@ -1,0 +1,11 @@
+data/raw/
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.safetensors
+.venv/
+.pytest_cache/
+.DS_Store
+results/smoke/
+paper/*.aux
+paper/*.log

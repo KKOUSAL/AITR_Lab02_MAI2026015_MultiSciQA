@@ -1,0 +1,9 @@
+[2026-11-16 21:55:25] Qwen/Qwen2.5-1.5B-Instruct attempt 1
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Downloading 'README.md' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--Qwen--Qwen2.5-1.5B-Instruct/blobs/b3327a17e2ffa52e0fd941a2810b18a9fd0e7d94.incomplete'
+Downloading '.gitattributes' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--Qwen--Qwen2.5-1.5B-Instruct/blobs/a6344aac8c09253b3b630fb776ae94478aa0275b.incomplete'
+Downloading 'LICENSE' to '/Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--Qwen--Qwen2.5-1.5B-Instruct/blobs/6634c8cc3133b3848ec74b9f275acaaa1ea618ab.incomplete'
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--Qwen--Qwen2.5-1.5B-Instruct/blobs/b3327a17e2ffa52e0fd941a2810b18a9fd0e7d94
+Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--Qwen--Qwen2.5-1.5B-Instruct/blobs/a6344aac8c09253b3b630fb776ae94478aa0275b
+Fetching 10 files:  10%|█         | 1/10 [00:01<00:17,  1.89s/it]Download complete. Moving file to /Users/nagireddynithinkumarreddy/.cache/huggingface/hub/models--Qwen--Qwen2.5-1.5B-Instruct/blobs/6634c8cc3133b3848ec74b9f275acaaa1ea618ab
+Fetching 10 files: 100%|██████████| 10/10 [00:01<00:00,  5.10it/s]
+[2026-11-16 21:55:29] Qwen/Qwen2.5-1.5B-Instruct OK

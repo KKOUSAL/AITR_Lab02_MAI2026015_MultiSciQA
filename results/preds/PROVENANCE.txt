@@ -1,0 +1,6 @@
+Copied from results_out.zip (Colab T4 run, received 2026-11-17 00:09). sha256 of zip: 46cc07e734e628109bb8134244060a8d7b69ef623eae3f0f263d5a0814f9ffbb
+
+2026-11-17: test_NATIVE_{hi,or}_P0 and test_TT_{hi,or}_P0 (+ .meta.json), data/translations/*, results/translation/report_test_{hi,or}.json
+imported unchanged from results_part2.zip (notebooks/03_colab_rerun_translation.ipynb, Colab T4, torch 2.14.1+cu130, protocol v4).
+results_part2.zip sha256: 8feb3bf7b6d3f62f0ff8df63887cd02fb57845aa8dcf40fa0c5fb76cb23e2018
+Local pilot translation caches moved to data/translations/pilot_local/ (dev pilot only, not used for test).

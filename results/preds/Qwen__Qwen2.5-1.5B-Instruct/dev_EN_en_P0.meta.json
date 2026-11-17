@@ -1,0 +1,45 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "condition": "EN",
+  "lang": "en",
+  "split": "dev",
+  "template": "P0",
+  "n": 500,
+  "device": "mps",
+  "seconds": 720.0,
+  "label_tokens": {
+    "yes": {
+      "ids": [
+        9834
+      ],
+      "pieces": [
+        "Ġyes"
+      ]
+    },
+    "no": {
+      "ids": [
+        902
+      ],
+      "pieces": [
+        "Ġno"
+      ]
+    },
+    "maybe": {
+      "ids": [
+        7196
+      ],
+      "pieces": [
+        "Ġmaybe"
+      ]
+    }
+  },
+  "pred_distribution": {
+    "yes": 398,
+    "no": 84,
+    "maybe": 18
+  },
+  "accuracy": 63.0,
+  "macro_f1": 45.1,
+  "torch": "2.9.1",
+  "protocol_version": 2
+}
